@@ -1,0 +1,191 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.home.guessthatnumber.GuessThatNumberFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="250dp"
+        android:layout_height="245dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:alpha="1"
+        android:columnCount="4"
+        android:rowCount="4">
+
+        <Button
+            android:id="@+id/cell00"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell01"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell02"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell03"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell10"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell11"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell12"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell13"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell20"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell21"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell22"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell23"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell30"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell31"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell32"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/cell33"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="26sp" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn_leaderboard"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Leaderboard" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gridLayout"
+        android:layout_alignEnd="@+id/gridLayout"
+        android:layout_alignStart="@+id/gridLayout"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:id="@+id/tv_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gridLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:text="Lets Play a game "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Start" />
+
+</RelativeLayout>
